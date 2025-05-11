@@ -65,20 +65,32 @@ Este proyecto es una API para gestionar el inicio de sesión y registro de usuar
     "status": 200,
     "error": null
 }
+### Instalación
+```bash
+git clone <url-del-repositorio>
+```
 
-###  Instalación
-git clone <url_del_repositorio>
-## instala dependencias
+### Instala dependencias
+```bash
 npm install
-## configura tu .env
+```
 
+### Configura tu `.env`
+```env
 HOST=""
 DB_NAME=""
 USER=""
-PASSWORD=""
-PORT=3000
+<!-- PASSWORD="" -->
+PORT=
 keySecret=""
+```
 
-## inicia el servidor
- **si usas nodemon** nodemon server.msj
- npm start
+### Inicia el servidor
+**Si usas nodemon**:
+```bash
+nodemon server.js
+```
+**O con npm**:
+```bash
+npm start
+```
