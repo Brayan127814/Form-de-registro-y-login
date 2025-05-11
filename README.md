@@ -24,6 +24,44 @@ Este proyecto es una API para gestionar el inicio de sesión y registro de usuar
 - **Cuerpo de la solicitud**:
   ```json
   {
-    "email": "usuario@dominio.com",
-    "password": "contraseña123"
+    "nombre":"Bryan de jesus",
+    "apellido":"Castillo FLorez",
+    "email":"bryan@gmail.com",
+    "password":"Brayan$1612"
   }
+**Resultado de la solicitud**
+```json
+{
+    "message": "Usuario creado",
+    "data": "Arelis Patricia",
+    "error": null
+}
+##RUTAS
+
+### `POST /register`
+**Descripción** :Iniciar sesión
+
+{
+     "email":"suarez@gmail.com",
+    "password":"Brayan$13612"
+}
+**Resultado de la solicitud**
+```json
+{
+    "message": "inicio de sesión exitoso",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNzQ2OTc2Nzk4LCJleHAiOjE3NDY5ODAzOTh9.DhIGbQ-B1SQNwcwN4aZYwSlJgcZ9Z4zM7fvvJYbIjRE",
+    "success": true
+}
+
+### `POST /updatePassword`
+**Descripción** : actualizar contraseña para esto ya el usuario ya debe estar registrado en la base de datos si en caso de que no no lo dejará ingresar
+
+{
+     "password":"arelis$13612"
+}
+**Resultado de la solicitud**
+{
+    "message": "Contraseña actualizada",
+    "status": 200,
+    "error": null
+}
