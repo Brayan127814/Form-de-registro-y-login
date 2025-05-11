@@ -38,7 +38,7 @@ Este proyecto es una API para gestionar el inicio de sesión y registro de usuar
 }
 ##RUTAS
 
-### `POST /register`
+### `POST /login`
 **Descripción** :Iniciar sesión
 
 {
@@ -65,3 +65,20 @@ Este proyecto es una API para gestionar el inicio de sesión y registro de usuar
     "status": 200,
     "error": null
 }
+
+###  Instalación
+git clone <url_del_repositorio>
+## instala dependencias
+npm install
+## configura tu .env
+
+HOST=""
+DB_NAME=""
+USER=""
+PASSWORD=""
+PORT=3000
+keySecret=""
+
+## inicia el servidor
+ **si usas nodemon** nodemon server.msj
+ npm start
