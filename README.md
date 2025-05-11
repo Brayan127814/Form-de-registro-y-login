@@ -24,10 +24,10 @@ Este proyecto es una API para gestionar el inicio de sesión y registro de usuar
 - **Cuerpo de la solicitud**:
   ```json
   {
-    "nombre":"Bryan de jesus",
-    "apellido":"Castillo FLorez",
-    "email":"bryan@gmail.com",
-    "password":"Brayan$1612"
+  "nombre":"Arelis Patricia",
+    "apellido":"Suarez Barrio",
+    "email":"suarez@gmail.com",
+    "password":"arelis$13612"
   }
 **Resultado de la solicitud**
 ```json
